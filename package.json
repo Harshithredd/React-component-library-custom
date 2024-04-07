@@ -1,0 +1,34 @@
+{
+  "name": "React_Component_library_Custom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "harshith <harshithreddy86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "minireset.css": "^0.0.7",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "1.3.1",
+    "@storybook/addon-essentials": "8.0.5",
+    "@storybook/addon-interactions": "8.0.5",
+    "@storybook/addon-links": "8.0.5",
+    "@storybook/addon-onboarding": "8.0.5",
+    "@storybook/blocks": "8.0.5",
+    "@storybook/react": "8.0.5",
+    "@storybook/react-vite": "8.0.5",
+    "@storybook/test": "8.0.5",
+    "storybook": "8.0.5",
+    "vite": "^5.2.8"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  }
+}
